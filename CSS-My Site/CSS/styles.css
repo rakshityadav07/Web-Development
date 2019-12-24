@@ -1,20 +1,15 @@
 a{
   color: #11999E;
 }
-/* div{
-  background-color: #E4F9F5;
-} */
 
 body{
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
   line-height: 2;
-  /* Line height means that all four side
-   of that particular element will be having inputed height */
+
 }
 
-/* margin - top right bottom left */
 .bottom-container{
 }
 
@@ -23,18 +18,14 @@ body{
   bottom: 300px;
   left: 300px;
 }
-/* if you have to set top and bottom 0
- then we can say that - 0 auto \
- auto for the left and right*/
+
 h1{
-  /* 100% means 16px
-  Here we want 90px so 90/16 * 100 */
   color: #66BFBF;
   font-size: 5.625rem;
   margin-top: 50px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
-/* 1em=100%=16px */
+
 h2{
   color: #66BFBF;
   font-size: 2.5rem;
@@ -80,8 +71,14 @@ h3{
 
 .code-img{
   width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .chess-img{
   width: 25%;
+  float: right;
+  margin-left: 30px;
 }
+
+/* Clear is opposite of float */
